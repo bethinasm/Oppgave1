@@ -47,7 +47,7 @@ function showTools() {
 }
 
 function showHTML() {
-    document.getElementById('html').innerHTML= /*HTML*/ `
+    document.getElementById('html').innerHTML = /*HTML*/ `
     
     Vi bruker HTML til å definere et dokument. <br>
     <ul>
@@ -64,9 +64,42 @@ function showHTML() {
 }
 
 function showCSS() {
-
+    document.getElementById('css').innerHTML = /*HTML*/ `
+    
+    Vi bruker CSS til å <i> style </i> et dokument, altså farger, fonter, utseende og lignende.
+    <ul>
+        <li> <tt> background-color </tt> </li>
+        <li> <tt> color </tt> </li>
+        <li> <tt> padding </tt> </li>
+        <li> <tt> margin </tt> </li>
+        <li> <tt> border </tt> </li>
+        <li> <tt> text-align </tt> </li>
+        <li> <tt> font-size </tt> </li>
+        <li> Flexbox </li>
+        <li> Grid </li>
+        <li> 
+            <a href="https://www.w3schools.com/css/default.asp"> 
+                W3Schools CSS Tutorial 
+            </a>
+        </li>
+        <li>
+            <a href ="https://www.w3schools.com/cssref/index.php"> 
+                W3Schools CSS Reference 
+            </a>
+        </li>
+    </ul>
+    `;
 }
 
 function showJS() {
+    document.getElementById('js').innerHTML = /*HTML*/ `
 
+    Det viktigste vi skal lære er programmeringsspråket JavaScript. 
+    Vi skal lære grunnleggende programmering ved å manipulere HTML- og 
+    CSS-kode på en nettside ved hjelp av JavaScript.
+    <ul>
+        <li> Det finnes en W3Schools JavaScript Tutorial, men her anbefaler vi heller å følge kurset vårt på Moodle. </li>
+        <li> <a href ="https://www.w3schools.com/jsref/default.asp"> W3Schools JavaScript Reference </a> </li>
+    </ul>
+    `;
 }
