@@ -17,7 +17,7 @@ function gridLayout() {
 
 
 function showTools() {
-    
+    blankAll();
     document.getElementById('tools').innerHTML = /*HTML*/`
     
     De to viktigste verktøyene vi skal bruke er disse: <br>
@@ -47,6 +47,7 @@ function showTools() {
 }
 
 function showHTML() {
+    blankAll();
     document.getElementById('html').innerHTML = /*HTML*/ `
     
     Vi bruker HTML til å definere et dokument. <br>
@@ -64,6 +65,7 @@ function showHTML() {
 }
 
 function showCSS() {
+    blankAll();
     document.getElementById('css').innerHTML = /*HTML*/ `
     
     Vi bruker CSS til å <i> style </i> et dokument, altså farger, fonter, utseende og lignende.
@@ -92,6 +94,7 @@ function showCSS() {
 }
 
 function showJS() {
+    blankAll();
     document.getElementById('js').innerHTML = /*HTML*/ `
 
     Det viktigste vi skal lære er programmeringsspråket JavaScript. 
@@ -101,5 +104,51 @@ function showJS() {
         <li> Det finnes en W3Schools JavaScript Tutorial, men her anbefaler vi heller å følge kurset vårt på Moodle. </li>
         <li> <a href ="https://www.w3schools.com/jsref/default.asp"> W3Schools JavaScript Reference </a> </li>
     </ul>
+    `;
+}
+
+function showCardGame(){
+    blankAll();
+    document.getElementById('cardGame').innerHTML= /*HTML*/ `
+        <div id="head"></div>
+        <div id="body"></div>
+        <div id="legs"></div>
+    `;
+    selectHead1();
+    selectBody1();
+    selectLegs1();
+}
+
+function blankAll() {
+    document.getElementById('tools').innerHTML =``;
+    document.getElementById('html').innerHTML=``;
+    document.getElementById('css').innerHTML=``;
+    document.getElementById('js').innerHTML=``;
+    document.getElementById('cardGame').innerHTML=``;
+}
+
+/*----------------------------------- CARD GAME --------------------------------------*/
+
+function selectHead1(){
+    document.getElementById('head').innerHTML= /*HTML*/`
+        <button> ◀ </button>
+        <img src="img/head1.png">
+        <button> ▶ </button>
+    `;
+}
+
+function selectBody1(){
+    document.getElementById('body').innerHTML= /*HTML*/`
+        <button> ◀ </button>
+        <img src="img/body1.png">
+        <button> ▶ </button> 
+    `;
+}
+
+function selectLegs1(){
+    document.getElementById('legs').innerHTML= /*HTML*/`
+        <button> ◀ </button>
+        <img src="img/legs1.png">
+        <button> ▶ </button>
     `;
 }
