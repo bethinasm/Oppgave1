@@ -9,32 +9,36 @@
 <body>
     
     <div>
-        <button onclick="layout1()"> Ingen layout </button>
-        <button onclick="layout2()"> Vertikal layout </button>
-        <button onclick="layout3()"> Horisontal Layout </button>
-        <button onclick="layout4()"> Grid Layout </button>
+        <button onclick="noLayout()"> Ingen layout </button>
+        <button onclick="verticalLayout()"> Vertikal layout </button>
+        <button onclick="horizontalLayout()"> Horisontal Layout </button>
+        <button onclick="gridLayout()"> Grid Layout </button>
     </div>
 
     <div>
 
         <div class="card">
-            <div class="header" onclick="show1()"> Verktøy </div>
+            <div class="header green" onclick="showTools()"> Verktøy </div>
+            <div id="tools"></div>
         </div>
 
         <div class="card">
-            <div class="header" onclick="show2()"> HTML </div>
+            <div class="header blue" onclick="showHTML()"> HTML </div>
+            <div id="html"></div>
         </div>
 
         <div class="card">
-            <div class="header" onclick="show3()"> CSS </div>
+            <div class="header red" onclick="showCSS()"> CSS </div>
+            <div id="css"></div>
         </div>
 
         <div class="card">
-            <div class="header" onclick="show4()"> JavaScript </div>
+            <div class="header yellow" onclick="showJS()"> JavaScript </div>
+            <div id="js"></div>
         </div>
 
         <div class="card">
-            <div class="header"> Hode, kropp og bein </div>
+            <div class="header black"> Hode, kropp og bein </div>
         </div>
 
     </div>

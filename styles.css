@@ -1,0 +1,44 @@
+body {
+    user-select: none;
+    margin: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.card {
+    width: 450px;
+    background-color: rgb(233, 232, 232);
+    border: 1px solid rgb(89, 91, 92);
+    margin: 10px;
+    
+}
+
+.header {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.green {
+    background-color: rgb(118, 145, 92);
+}
+
+.blue {
+    background-color: rgb(104, 151, 190);
+}
+
+.red {
+    background-color: rgb(175, 40, 40);
+}
+
+.yellow {
+    background-color: rgb(233, 188, 65);
+}
+
+.black {
+    background-color: black;
+}
