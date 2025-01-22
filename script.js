@@ -67,29 +67,30 @@ function showHTML() {
 function showCSS() {
     blankAll();
     document.getElementById('css').innerHTML = /*HTML*/ `
-    
-    Vi bruker CSS til å <i> style </i> et dokument, altså farger, fonter, utseende og lignende.
-    <ul>
-        <li> <tt> background-color </tt> </li>
-        <li> <tt> color </tt> </li>
-        <li> <tt> padding </tt> </li>
-        <li> <tt> margin </tt> </li>
-        <li> <tt> border </tt> </li>
-        <li> <tt> text-align </tt> </li>
-        <li> <tt> font-size </tt> </li>
-        <li> Flexbox </li>
-        <li> Grid </li>
-        <li> 
-            <a href="https://www.w3schools.com/css/default.asp"> 
-                W3Schools CSS Tutorial 
-            </a>
-        </li>
-        <li>
-            <a href ="https://www.w3schools.com/cssref/index.php"> 
-                W3Schools CSS Reference 
-            </a>
-        </li>
-    </ul>
+    <div class="innerCard">
+        Vi bruker CSS til å <i> style </i> et dokument, altså farger, fonter, utseende og lignende.
+        <ul>
+            <li> <tt> background-color </tt> </li>
+            <li> <tt> color </tt> </li>
+            <li> <tt> padding </tt> </li>
+            <li> <tt> margin </tt> </li>
+            <li> <tt> border </tt> </li>
+            <li> <tt> text-align </tt> </li>
+            <li> <tt> font-size </tt> </li>
+            <li> Flexbox </li>
+            <li> Grid </li>
+            <li> 
+                <a href="https://www.w3schools.com/css/default.asp"> 
+                    W3Schools CSS Tutorial 
+                </a>
+            </li>
+            <li>
+                <a href ="https://www.w3schools.com/cssref/index.php"> 
+                    W3Schools CSS Reference 
+                </a>
+            </li>
+        </ul>
+    </div>    
     `;
 }
 
