@@ -1,4 +1,4 @@
-# Oppgave1
+Oppgave tekst:
  
 "Vi starter opp med et enkelt eksempel som likevel inneholder HTML, CSS og enkel JavaScript. Å forstå og kunne lage tilsvarende som dette eksemplet er første milepæl i kurset, gjerne i løpet av første uke. 
 
